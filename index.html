@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Girivasan PV - Full Stack Developer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <span class="logo-text">GV</span>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-background">
+        <div class="floating-shapes">
+          <div class="shape shape-1"></div>
+          <div class="shape shape-2"></div>
+          <div class="shape shape-3"></div>
+          <div class="shape shape-4"></div>
+          <div class="shape shape-5"></div>
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="title-line">Hello, I'm</span>
+            <span class="title-line name-highlight">Girivasan PV</span>
+            <span class="title-line">Full Stack Developer</span>
+          </h1>
+          <p class="hero-description">
+            Aspiring Software Engineer passionate about building scalable,
+            AI-powered applications. Currently pursuing Computer Science
+            Engineering with a focus on innovative technology solutions.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Work</span>
+              <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            <i class="fas fa-user"></i>
+            <span>Your Photo Here</span>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <span>Scroll to explore</span>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="about-description">
+              I'm a passionate Computer Science student at V.S.B Engineering
+              College with a strong foundation in software development and AI
+              technologies. Currently maintaining a CGPA of 7.97, I'm dedicated
+              to creating innovative solutions that make a difference.
+            </p>
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-calendar"></i>
+                <span><strong>Age:</strong> 20 years (Born: 07.09.2004)</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span><strong>Location:</strong> Karur, Tamil Nadu</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <span><strong>Education:</strong> B.Tech CSE (2022-2026)</span>
+              </div>
+              <div class="detail-item">
+                <i class="fas fa-code"></i>
+                <span><strong>Focus:</strong> AI, Full Stack Development</span>
+              </div>
+            </div>
+            <div class="languages">
+              <h3>Languages</h3>
+              <div class="language-tags">
+                <span class="tag">Tamil (Native)</span>
+                <span class="tag">English (Fluent)</span>
+                <span class="tag">Hindi (Conversational)</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-target="7.97">0</div>
+              <div class="stat-label">Current CGPA</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="5">0</div>
+              <div class="stat-label">Tech Skills</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="2">0</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-target="3">0</div>
+              <div class="stat-label">Certifications</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Programming Languages</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="60">
+                <div class="skill-info">
+                  <i class="fab fa-java"></i>
+                  <span>Java</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="60%"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="40">
+                <div class="skill-info">
+                  <i class="fas fa-database"></i>
+                  <span>SQL</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Frontend Technologies</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="80">
+                <div class="skill-info">
+                  <i class="fab fa-html5"></i>
+                  <span>HTML5</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="80">
+                <div class="skill-info">
+                  <i class="fab fa-css3-alt"></i>
+                  <span>CSS3</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="40">
+                <div class="skill-info">
+                  <i class="fab fa-js"></i>
+                  <span>JavaScript</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>AI & Machine Learning</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-skill="80">
+                <div class="skill-info">
+                  <i class="fas fa-robot"></i>
+                  <span>Gemini API</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="80%"></div>
+                </div>
+              </div>
+              <div class="skill-item" data-skill="70">
+                <div class="skill-info">
+                  <i class="fas fa-brain"></i>
+                  <span>AI Tools</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" data-width="70%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <i class="fas fa-robot project-icon"></i>
+            </div>
+            <div class="project-content">
+              <h3>AI Chatbot with Gemini API</h3>
+              <p>
+                Built an intelligent text-based chatbot that generates
+                contextual responses using Google's Gemini API. Features natural
+                language processing and conversation memory.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">Gemini API</span>
+                <span class="tech-tag">AI/ML</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link" title="View Live">
+                    <i class="fas fa-external-link-alt"></i>
+                  </a>
+                  <a href="#" class="project-link" title="View Code">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </div>
+              <i class="fas fa-calendar-check project-icon"></i>
+            </div>
+            <div class="project-content">
+              <h3>TURF Reservation System</h3>
+              <p>
+                Comprehensive sports facility booking system with real-time
+                availability, payment integration, and admin dashboard. Built
+                using Java with JDBC for robust database operations.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Java</span>
+                <span class="tech-tag">JDBC</span>
+                <span class="tech-tag">MySQL</span>
+                <span class="tech-tag">Swing</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+      <div class="container">
+        <h2 class="section-title">Experience & Achievements</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Java Development Intern</h3>
+                <span class="timeline-date">June 2023 - July 2023</span>
+              </div>
+              <div class="timeline-company">Brainery Spot, Coimbatore</div>
+              <p class="timeline-description">
+                Developed foundational knowledge in Java programming and
+                Object-Oriented Programming concepts. Worked on practical
+                projects to strengthen core programming skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <h3>Student Placement Coordinator</h3>
+                <span class="timeline-date">2023 - Present</span>
+              </div>
+              <div class="timeline-company">
+                IT Department, V.S.B Engineering College
+              </div>
+              <p class="timeline-description">
+                Responsible for sharing real-time placement updates with peers
+                and facilitating communication between students and placement
+                officers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="achievements">
+          <h3>Key Achievements</h3>
+          <div class="achievements-grid">
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-trophy"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>2nd Prize - PPT Presentation</h4>
+                <p>Sciensea by KEC 2024</p>
+              </div>
+            </div>
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-medal"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>State 9th Rank</h4>
+                <p>English Proficiency Test (10th Standard)</p>
+              </div>
+            </div>
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-certificate"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Elite Badge (69%)</h4>
+                <p>Java Programming - NPTEL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="section-title">Let's Connect</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>
+              I'm always open to discussing new opportunities, interesting
+              projects, or just having a chat about technology!
+            </p>
+
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:giriponnusmay007@gmail.com"
+                  >giriponnusmay007@gmail.com</a
+                >
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <a href="tel:+919092400267">+91 9092400267</a>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>156, Vaiyapuri Nagar, 2nd Cross, Karur-639002</span>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a
+                href="https://www.linkedin.com/in/giri-vasan-351168190/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/GIRI-79"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://leetcode.com/u/giriponnusamy007/"
+                class="social-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Your Email</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <span>Send Message</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <p>&copy; 2024 Girivasan PV. Crafted with passion and code.</p>
+          <div class="footer-links">
+            <a href="#home">Back to Top</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
